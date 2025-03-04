@@ -1,0 +1,23 @@
+
+CC = clang
+CFLAGS = -Wall -Werror
+
+.PHONY: all
+all: linearSearch timeLinearSearch binarySearch timeBinarySearch
+
+linearSearch: linearSearch.c
+	$(CC) $(CFLAGS) -o linearSearch linearSearch.c
+
+timeLinearSearch: timeLinearSearch.c
+	$(CC) $(CFLAGS) -o timeLinearSearch timeLinearSearch.c
+
+binarySearch: binarySearch.c
+	$(CC) $(CFLAGS) -o binarySearch binarySearch.c
+
+timeBinarySearch: timeBinarySearch.c
+	$(CC) $(CFLAGS) -o timeBinarySearch timeBinarySearch.c
+
+.PHONY: clean
+clean:
+	rm -rf *.dSYM
+	rm -f linearSearch timeLinearSearch binarySearch timeBinarySearch

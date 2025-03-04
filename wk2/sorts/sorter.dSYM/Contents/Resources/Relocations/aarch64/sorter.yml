@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/chenyiting/Documents/Self-Learning/UNSW_DS_Algo/wk2/sorts/sorter'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002FC4, symSize: 0x1C0 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002FC4, symSize: 0x1C0 }
+  - { offsetInCU: 0xA1, offset: 0xA1, size: 0x8, addend: 0x0, symName: _selectionSort, symObjAddr: 0x25C, symBinAddr: 0x100003220, symSize: 0xE4 }
+  - { offsetInCU: 0x135, offset: 0x135, size: 0x8, addend: 0x0, symName: _bubbleSort, symObjAddr: 0x340, symBinAddr: 0x100003304, symSize: 0xF4 }
+  - { offsetInCU: 0x1C9, offset: 0x1C9, size: 0x8, addend: 0x0, symName: _insertionSort, symObjAddr: 0x434, symBinAddr: 0x1000033F8, symSize: 0x100 }
+  - { offsetInCU: 0x24F, offset: 0x24F, size: 0x8, addend: 0x0, symName: _shellSort, symObjAddr: 0x534, symBinAddr: 0x1000034F8, symSize: 0x1A8 }
+  - { offsetInCU: 0x2F1, offset: 0x2F1, size: 0x8, addend: 0x0, symName: _mergeSort, symObjAddr: 0x6DC, symBinAddr: 0x1000036A0, symSize: 0x94 }
+  - { offsetInCU: 0x33F, offset: 0x33F, size: 0x8, addend: 0x0, symName: _naiveQuickSort, symObjAddr: 0x770, symBinAddr: 0x100003734, symSize: 0x80 }
+  - { offsetInCU: 0x38D, offset: 0x38D, size: 0x8, addend: 0x0, symName: _medianOfThreeQuickSort, symObjAddr: 0x7F0, symBinAddr: 0x1000037B4, symSize: 0x90 }
+  - { offsetInCU: 0x3DB, offset: 0x3DB, size: 0x8, addend: 0x0, symName: _randomisedQuickSort, symObjAddr: 0x880, symBinAddr: 0x100003844, symSize: 0xAC }
+  - { offsetInCU: 0x42A, offset: 0x42A, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0x92C, symBinAddr: 0x1000038F0, symSize: 0x8C }
+  - { offsetInCU: 0x48B, offset: 0x48B, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x9B8, symBinAddr: 0x10000397C, symSize: 0x50 }
+  - { offsetInCU: 0x4DE, offset: 0x4DE, size: 0x8, addend: 0x0, symName: _merge, symObjAddr: 0xA08, symBinAddr: 0x1000039CC, symSize: 0x248 }
+  - { offsetInCU: 0x564, offset: 0x564, size: 0x8, addend: 0x0, symName: _partition, symObjAddr: 0xC50, symBinAddr: 0x100003C14, symSize: 0x180 }
+  - { offsetInCU: 0x5D2, offset: 0x5D2, size: 0x8, addend: 0x0, symName: _medianOfThree, symObjAddr: 0xDD0, symBinAddr: 0x100003D94, symSize: 0xF0 }
+  - { offsetInCU: 0x620, offset: 0x620, size: 0x8, addend: 0x0, symName: _randint, symObjAddr: 0xEC0, symBinAddr: 0x100003E84, symSize: 0x50 }
+...

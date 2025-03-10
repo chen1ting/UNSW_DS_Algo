@@ -1,0 +1,7 @@
+NOTE:
+
+The purpose of these programs is to show the difference between proper
+and improper use of an ADT.
+
+goodCustomer should compile successfully, while badCustomer shouldn't.
+
